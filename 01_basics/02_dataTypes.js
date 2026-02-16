@@ -1,4 +1,4 @@
-"use strict"
+"use strict" //to use modern javaScript features
 
 //alert(3+4) // we are using node.js, not browser
 
