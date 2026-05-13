@@ -43,7 +43,6 @@ if(true){
 
 console.log(addone(5))
 
-
 function addone(num){
     return num + 1
 }
@@ -54,3 +53,4 @@ const addTwo = function(num){
     return num + 2
 }
 
+// addTwo(5);
