@@ -70,3 +70,18 @@ form.addEventListener('submit', function(e){
   }
 })
 ```
+
+
+## Project 3 (Digital Clock)
+
+```javaScript
+const clock = document.getElementById('clock')
+
+//setInterval() is used because a clock needs to update continuously.
+
+setInterval(function(){
+  let date = new Date()
+// console.log(date.toLocaleString())
+clock.innerHTML = date.toLocaleString()
+}, 1000)
+```
