@@ -187,6 +187,35 @@ function newGame(){
 }
 ```
 
+## Project 5 (Keyboard Check)
+
+``` javaScript
+console.log('Project 5');
+
+const insert = document.querySelector('#insert')
+
+//The event listener is attached to window because keyboard events can happen anywhere on the page, not just on a specific element.
+
+window.addEventListener('keydown', (e) => {
+  insert.innerHTML = `
+  <div class='color'>
+  <table>
+  <tr>
+    <th>Key</th>
+    <th>KeyCode</th>
+    <th>Code</th>
+  </tr>
+  <tr>
+    <td>${e.key === ' ' ? 'Space' : e.key}</td>
+    <td>${e.keyCode}</td>
+    <td>${e.code}</td>
+  </tr>
+</table>
+  </div>
+  `
+})
+
+```
 
 ## Project 6 (Unlimited Colors)
 
